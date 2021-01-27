@@ -46,7 +46,7 @@ handleChange(e) {
           formSubmitted: false
         });
         if (window.confirm("Login Succesful !!")) {
-          window.location.href = "https://manalibhav.github.io/Payment"
+          document.location.href = "/Payment",true;
         }
        
     }
