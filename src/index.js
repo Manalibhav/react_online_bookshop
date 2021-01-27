@@ -51,7 +51,7 @@ const routing=(
              <li><Link to="/Login"><i class="fa fa-fw fa-user"></i>Login</Link></li>
       
          <li><a href="/Contact"><i class="fa fa-fw fa-envelope"></i>Contact Us</a></li>
-         <li><a href="/admin"><i class="fa fa-fw fa-user"></i>Admin</a></li>
+         <li><Link to="/admin"><i class="fa fa-fw fa-user"></i>Admin</Link></li>
          <li><a href="/Searchbar"><i class="fa fa-fw fa-search"></i>Search Box</a></li>
 
        </ul>   
