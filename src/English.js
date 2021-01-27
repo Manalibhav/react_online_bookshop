@@ -33,7 +33,7 @@ class English extends React.Component {
 <span class="fa fa-star checked" style={{color:"orange"}}></span>
 <span class="fa fa-star checked" style={{color:"orange"}}></span>
 <span class="fa fa-star checked"></span><br/> Author : Robert T. Kiyosaki  <br/>Price : 350/-</p>
-            <a href="/Register" class="btn btn-primary" style={{color:"white"}}>Buy Now</a>
+            <Link to = "/Register" class="btn btn-primary">Buy Now</Link>
           </div>
         </div>
       </div>
@@ -52,7 +52,7 @@ class English extends React.Component {
 <span class="fa fa-star checked" style={{color:"orange"}}></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span><br/> Author : Khaled Hosseini  <br/>Price : 120/-</p>
-            <a href="/Register" class="btn btn-primary" style={{color:"white"}}>Buy Now</a> 
+          <Link to = "/Register" class="btn btn-primary">Buy Now</Link>
           </div>
         </div>
       </div>
@@ -69,7 +69,7 @@ class English extends React.Component {
 <span class="fa fa-star checked" style={{color:"orange"}}></span>
 <span class="fa fa-star checked" style={{color:"orange"}}></span>
 <span class="fa fa-star checked"></span><br/> Author : K.L. Slater <br/>Price : 199/-</p>
-            <a href="/Register" class="btn btn-primary" style={{color:"white"}}>Buy Now</a> 
+            <Link to = "/Register" class="btn btn-primary">Buy Now</Link>
           </div>
         </div>
       </div>
@@ -87,7 +87,7 @@ class English extends React.Component {
           <span class="fa fa-star checked" style={{color:"orange"}}></span>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span><br/>Author : Vex King  <br/>Price : 200/-</p>
-                      <a href="/Register" class="btn btn-primary" style={{color:"white"}}>Buy Now</a> 
+                     <Link to = "/Register" class="btn btn-primary">Buy Now</Link>
                     </div>
                   </div>
                 </div>
@@ -103,7 +103,7 @@ class English extends React.Component {
 <span class="fa fa-star checked" style={{color:"orange"}}></span>
 <span class="fa fa-star checked" style={{color:"orange"}}></span>
 <span class="fa fa-star checked"></span><br/> Author : Josie George  <br/>Price : 120/-</p>
-            <a href="/Register" class="btn btn-primary" style={{color:"white"}}>Buy Now</a> 
+           <Link to = "/Register" class="btn btn-primary">Buy Now</Link>
           </div>
         </div>
       </div>
@@ -119,7 +119,7 @@ class English extends React.Component {
 <span class="fa fa-star checked" style={{color:"orange"}}></span>
 <span class="fa fa-star checked" style={{color:"orange"}}></span>
 <span class="fa fa-star checked"></span><br/> Author : Rutuja Diwekar <br/>Price : 100/-</p>
-            <a href="/Register" class="btn btn-primary" style={{color:"white"}}>Buy Now</a>
+            <Link to = "/Register" class="btn btn-primary">Buy Now</Link>
           </div>
         </div>
       </div>
@@ -135,7 +135,7 @@ class English extends React.Component {
 <span class="fa fa-star checked" style={{color:"orange"}}></span>
 <span class="fa fa-star checked" style={{color:"orange"}}></span>
 <span class="fa fa-star checked" style={{color:"orange"}}></span><br/> Author : Sergei Ovsiannikov  <br/>Price : 220/-</p>
-            <a href="/Register" class="btn btn-primary" style={{color:"white"}}>Buy Now</a> 
+         <Link to = "/Register" class="btn btn-primary">Buy Now</Link>
           </div>
         </div>
       </div>
@@ -154,7 +154,7 @@ class English extends React.Component {
 <span class="fa fa-star checked" style={{color:"orange"}}></span>
 <span class="fa fa-star checked" style={{color:"orange"}}></span>
 <span class="fa fa-star checked" style={{color:"orange"}}></span><br/> Author : Dr. APJ Abdul Kalam  <br/>Price : 700/-</p>
-            <a href="/Register" class="btn btn-primary" style={{color:"white"}}>Buy Now</a> 
+           <Link to = "/Register" class="btn btn-primary">Buy Now</Link>
           </div>
         </div>
       </div>
