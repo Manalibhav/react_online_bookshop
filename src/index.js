@@ -35,7 +35,7 @@ const routing=(
 
     <article className="topnav">
        <ul>
-         <li><Link to="/*"><i class="fa fa-fw fa-home"></i>Home</Link></li> 
+         <li><Link to="/"><i class="fa fa-fw fa-home"></i>Home</Link></li> 
            <li className="nav-item-dropdown">
              <Link className="nav-link dropdown-toggle" data-toggle="dropdown" id="navbarDropdownMenuLink"
              role="button" area-aria-haspopup="true" area-aria-expanded="false"><i class="glyphicon glyphicon-picture"></i>Gallery
@@ -59,7 +59,7 @@ const routing=(
 </article> 
 
 <Switch>
-<Route exact path="/*" component={App}/>
+<Route exact path="/" component={App}/>
 <Route exact path="/Register" component={Register}/>
 <Route exact path="/Gallery" component={Gallery}/>
 <Route exact path="/English" component={English}/>
