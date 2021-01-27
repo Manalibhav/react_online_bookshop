@@ -9,6 +9,7 @@ import imgsrc7 from './images/prakash.jfif';
 import imgsrc8 from './images/shyam.jpg';
 import imgsrc9 from './images/vishram.jpg';
 import './gallery.css'
+import { Link } from 'react-router-dom';
 
 class Marathi extends React.Component {
     render() {
@@ -33,7 +34,7 @@ class Marathi extends React.Component {
 <span class="fa fa-star checked" style={{color:"orange"}}></span>
 <span class="fa fa-star checked" style={{color:"orange"}}></span>
 <span class="fa fa-star checked" style={{color:"orange"}}></span> <br/> Author : Shivaji Sawant  <br/>Price : 450/-</p>
-            <a href="/Register" class="btn btn-primary" style={{color:"white"}}>Buy Now</a>
+            <Link to="/Register" class="btn btn-primary" style={{color:"white"}}>Buy Now</Link>
           </div>
         </div>
       </div> 
