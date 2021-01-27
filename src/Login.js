@@ -47,7 +47,7 @@ handleChange(e) {
           formSubmitted: false
         });
         if (window.confirm("Login Succesful !!")) {
-          document.location.href = "/Payment",true;
+          window.location.href = "/Payment";
         }
        
     }
