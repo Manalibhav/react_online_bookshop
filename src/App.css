@@ -1,0 +1,229 @@
+
+
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+  
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+*{
+  box-sizing: border-box;             /*IT WILL BE A BOX AND CONTENT ADJUSTED*/
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  padding: 10px;
+  text-align: center;
+  background: white;
+  width: 90%;
+  margin: auto;      /*Used to horizontally center element within its container*/
+                      /*The element then will take specified width (80%) and spilt ()equally between left and right margins into remaining space */
+}
+
+
+.topnav{
+
+  overflow: hidden;   /*controls what happens to content when it overflows...visisble 2)hidden3)scroll4)noscroll etc..*/
+  background-color:rgb(90,98,98);
+  font-size: small;
+  width: 100%;
+  height: 20%;
+  color: white;
+  margin: auto;
+  margin-top: 3px;    
+  margin-bottom: 10px;
+  padding-top:10px ; 
+   /*adds space before blue block box*/
+}
+.topnav ul{
+list-style-type: none;      /*it will remove bullets points of lists*/
+}
+
+.topnav a{
+  float: left;
+  color:white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;  /*it will remove hyperlinks of anchor tags*/
+  letter-spacing: 1px;
+  height: 70px;
+}
+.topnav a:hover {opacity: 0.6;color: white;text-decoration: none;}  
+
+/*.row::after{
+  content: " ";
+  display: table;
+  clear: both;
+}*/
+.main{
+  width: 100%;
+  margin: auto;
+}
+/*add a card effect for article*/
+.card{
+      background-color: white;
+      padding: 20px;
+      margin-top: 5px;
+      overflow: hidden;
+      
+}
+.cc{
+  float: left;
+  padding: 35px;
+  
+}
+img{
+  width: auto;
+
+  height: auto;
+}
+#logo{
+  padding-top: 0%;
+  float: right; 
+  padding-right: 10px;
+  height: 60px;
+  width: 150px;
+}
+
+
+footer
+{
+  padding: 10px;
+  text-align: center;
+  background: white;
+  width: 100%;
+  margin: auto;
+}
+.container {
+  padding: 16px;
+  width: 350px;
+  margin: auto;
+  }
+
+  /* Set a style for all buttons */
+  button {
+  background-color: darkblue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  }
+  /* Add a hover effect for buttons */
+  button:hover {
+  opacity: 0.8;
+  }
+
+  .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display:none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 99999;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+  .tales
+{
+  width:100%;
+}
+.carousel-inner{
+  line-height: 1;
+  width:100% ;
+}
+
+.card-img-top
+    {
+      width: 441px;
+      height: 248px;
+      /* background: url(http://www.corelangs.com/css/box/img/water.jpg) no-repeat; */
+      background: no-repeat;
+    }
+    .card:hover
+    {
+      -moz-box-shadow: 0 0 30px rgb(41, 39, 39);
+      -webkit-box-shadow: 0 0 30px rgb(46, 46, 46);
+      box-shadow: 0 0 30px rgb(12, 12, 12);
+    }
+    .card-img-top:hover
+    {
+      -moz-box-shadow: 0 0 30px rgb(41, 39, 39);
+      -webkit-box-shadow: 0 0 30px rgb(46, 46, 46);
+      box-shadow: 0 0 30px rgb(12, 12, 12);
+    }
+
+.navbar a:hover{
+      color: rgb(247,154,154);
+    }
+
+
+    .navbar{
+      background-color: black;
+      color: white;
+      display: inline-flex;
+    }
