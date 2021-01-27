@@ -33,6 +33,7 @@ handleChange(e) {
   }
 
   submituserRegistrationForm(e) {
+   
     e.preventDefault();
     this.setState({
       formSubmitted: true
