@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { FormErrors } from './FormErrors';
-import {Redirect} from 'react-router-dom';
 
 class Login extends React.Component {
   constructor() {
@@ -48,7 +47,7 @@ handleChange(e) {
           formSubmitted: false
         });
         if (window.confirm("Login Succesful !!")) {
-         return  <Redirect  to="/Payment/" />
+          window.location= "/Payment";
         }
        
     }
